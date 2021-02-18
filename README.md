@@ -18,7 +18,7 @@
   
 **Reglas de juego:**
 >  - Los equipos inician con la misma cantidad de puntos.
->  - Si un oponente come una super pastilla esta le permite pausar al equipo oponente.
+>  - Si un oponente come una superpastilla esta le permite pausar al equipo oponente.
 >  - Si dos oponentes cosumen la superpastilla al mismo tiempo,  ninguno es pausado.
 
 ### 💡Interfaz del juego
