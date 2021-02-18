@@ -41,6 +41,8 @@
 
 ### 📜 Arquitectura y Diseño detallado
 #### Diagrama de casos de uso
+![](./img/diagramaCasosUso.png)
+
 #### Diagrama E-R
 **
 #### ⭕ Enlace al sistema de integración continua:
