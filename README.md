@@ -23,9 +23,25 @@
 
 ### 💡Interfaz del juego
 
+**Mockup Inicio**
+![](./img/InicioMk_01.png)
+![](./img/InicioMk_02.png)
+![](./img/InicioMk_03.png)
+
+**Mockup Create**
+![](./img/CreateMk_01.png)
+![](./img/CreateMk_02.png)
+![](./img/CreateMk_03.png)
+![](./img/CreateMk_04.png)
+
+**Mockup Join**
+![](./img/JoinMk_01.png)
+![](./img/JoinMk_02.png)
+![](./img/JoinMk_03.png)
+
 ### 📜 Arquitectura y Diseño detallado
 #### Diagrama de casos de uso
 #### Diagrama E-R
-#### 📎Enlace a la aplicación en Heroku:
+**
 #### ⭕ Enlace al sistema de integración continua:
 #### ⚠️Reporte de de Análisis estático de código:
