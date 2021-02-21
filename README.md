@@ -4,12 +4,12 @@
 ## 📍 LACMAN
 
 #### Product Owner 💥 
-> - Sebastián Henao Pinzón
+>  - Sebastián Henao Pinzón
 
 #### Team 👤👤👤
-> - María Angélica Alfaro Fandiño (Back)
-> - César Fernando Ortiz Rocha (Front)
-> - Laura Alejandra Izquierdo Castro (Design)
+>  - María Angélica Alfaro Fandiño (Back)
+>  - César Fernando Ortiz Rocha (Front)
+>  - Laura Alejandra Izquierdo Castro (Design)
 
 ### 🔎 Descripción del producto 
 **Descripción general:** Juego multijugador (equipos) donde el ganador, es aquel que primero reúna las mayor cantidad de puntos.
@@ -17,9 +17,9 @@
 **Antecedentes:** PACMAN
   
 **Reglas de juego:**
-> - Los equipos inician con la misma cantidad de puntos.
-> - Si un oponente come una superpastilla esta le permite pausar al equipo oponente.
-> - Si dos oponentes cosumen la superpastilla al mismo tiempo,  ninguno es pausado.
+>  - Los equipos inician con la misma cantidad de puntos.
+>  - Si un oponente come una superpastilla esta le permite pausar al equipo oponente.
+>  - Si dos oponentes cosumen la superpastilla al mismo tiempo,  ninguno es pausado.
 
 ### 💡Interfaz del juego
 
@@ -69,8 +69,6 @@
 ![](./img/diagramaClases.png)
 
 #### 📈 Enlace a Taiga: [Sprint 1](https://tree.taiga.io/project/alizeci-arsw-2-2021-1-proy/backlog)
-#### 📎 Despliegue en Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lacman.herokuapp.com/)
+#### 🚀 Despliegue en Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lacman.herokuapp.com/)
 #### ⭕ Enlace al sistema de integración continua: [![CircleCI](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY.svg?style=svg)](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY)
 #### ⚠️Reporte de de Análisis estático de código: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/02882d526be74a4aabd53d7b3876ec38)](https://www.codacy.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Los-Programadoress/ARSW-2-2021-1-PROY&amp;utm_campaign=Badge_Grade)
-
-
