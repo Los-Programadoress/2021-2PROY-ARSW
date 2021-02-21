@@ -46,5 +46,5 @@
 #### Diagrama E-R
 **
 #### 📎Enlace a la aplicación en Heroku: [Juego Lacman] https://lacman.herokuapp.com/
-#### ⭕ Enlace al sistema de integración continua:
+#### ⭕ Enlace al sistema de integración continua:[![CircleCI](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY.svg?style=svg)](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY)
 #### ⚠️Reporte de de Análisis estático de código:
