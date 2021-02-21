@@ -45,5 +45,6 @@
 
 #### Diagrama E-R
 **
+#### 📎Enlace a la aplicación en Heroku: [Juego Lacman] https://lacman.herokuapp.com/
 #### ⭕ Enlace al sistema de integración continua:
 #### ⚠️Reporte de de Análisis estático de código:
