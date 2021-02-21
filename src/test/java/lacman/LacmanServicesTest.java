@@ -8,6 +8,7 @@ public class LacmanServicesTest {
 
 	@Test
 	public void test() {
+		assertTrue(true);
 	}
 
 }

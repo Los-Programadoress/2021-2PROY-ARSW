@@ -11,8 +11,10 @@ public class LacmanAPIAplication implements CommandLineRunner{
         SpringApplication.run(LacmanAPIAplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
+	@Override
+	public void run(String... args) throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
 
-    }
 }
