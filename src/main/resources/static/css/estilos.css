@@ -1,0 +1,22 @@
+.classClave{
+    margin-left: 10px;
+    height: 40px;
+    width: 150px;
+}
+.classCodigo{
+    margin-top: 18px;
+    width: 230px;
+}
+.classAcceso{
+    margin-left: 10px;
+    color: white;
+}
+.classCA{
+    font-size: 11px;
+    color: white;
+}
+.imgCrearJuego{
+    margin-left: 15px;
+    width: 450px;
+    height: 150;
+}

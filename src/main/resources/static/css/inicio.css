@@ -1,0 +1,57 @@
+@font-face {
+  font-family: fuente_1;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/ArcadeClassic.ttf);
+}
+
+.imgtitulo {
+  left: 30%;
+}
+
+.ventana {
+  height: 70%;
+  width: 70%;
+  background: rgb(79, 79, 82);
+  margin-left: 30%;
+  margin-top: 20%;
+  font-size: 27px;
+  border-radius: 2%;
+}
+
+.imglacman {
+  height: 95%;
+  width: 90%;
+  margin-left: 35%;
+  margin-top: 8%;
+}
+
+.btn-primary {
+  height: 18%;
+  width: 90%;
+  margin-top: 10%;
+  margin-left: 5%;
+  font-family: fuente_1;
+  font-size: 90%;
+}
+
+.btn-group-toggle {
+  height: 10%;
+  width: 70%;
+  margin-top: 2%;
+  margin-left: 16%;
+}
+
+.jprivados {
+  color: rgb(218, 216, 216);
+  margin-left: 23%;
+  margin-top: 8%;
+}
+
+.texto {
+  height: 18%;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 8%;
+  border-radius: 3%;
+}
