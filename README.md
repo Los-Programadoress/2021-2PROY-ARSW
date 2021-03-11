@@ -79,7 +79,7 @@
 
 ![](./img/diagramaClases.png)
 
-#### Diagrama Component
+#### Diagrama de Componentes
 
 ![](./img/componentDiagram.png)
 
