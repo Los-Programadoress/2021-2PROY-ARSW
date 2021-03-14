@@ -20,8 +20,8 @@
 }
 
 .imglacman {
-  height: 95%;
-  width: 90%;
+  height: 85%;
+  width: 80%;
   margin-left: 35%;
   margin-top: 8%;
 }
@@ -32,7 +32,7 @@
   margin-top: 10%;
   margin-left: 5%;
   font-family: fuente_1;
-  font-size: 90%;
+  font-size: 100px;
 }
 
 .btn-group-toggle {
@@ -40,12 +40,14 @@
   width: 70%;
   margin-top: 2%;
   margin-left: 16%;
+  font-family: fuente_1;
 }
 
 .jprivados {
   color: rgb(218, 216, 216);
   margin-left: 23%;
   margin-top: 8%;
+  font-family: fuente_1;
 }
 
 .texto {
@@ -54,4 +56,9 @@
   margin-left: 5%;
   margin-top: 8%;
   border-radius: 3%;
+}
+
+.btn-light{
+  margin-right: 9px;
+  margin-top: 9px;
 }
