@@ -83,7 +83,11 @@
 
 ![](./img/componentDiagram.png)
 
-#### 📈 Enlace a Taiga: [Sprint 1](https://tree.taiga.io/project/alizeci-arsw-2-2021-1-proy/backlog)
+#### Diagrama de Despliegue
+
+![](./img/deploymentDiagram.PNG)
+
+#### 📈 Enlace a Taiga: [Backlog](https://tree.taiga.io/project/alizeci-arsw-2-2021-1-proy/backlog)
 
 #### 🚀 Despliegue en Heroku: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://lacman.herokuapp.com/)
 
