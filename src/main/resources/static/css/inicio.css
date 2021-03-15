@@ -1,13 +1,9 @@
 @font-face {
   font-family: fuente_1;
-  font-style: normal;
-  font-weight: normal;
+  font-size: 100px;
   src: url(../fonts/ArcadeClassic.ttf);
 }
 
-.imgtitulo {
-  left: 30%;
-}
 
 .ventana {
   height: 70%;
@@ -32,7 +28,11 @@
   margin-top: 10%;
   margin-left: 5%;
   font-family: fuente_1;
-  font-size: 100px;
+}
+
+.jugar{
+  font-size: 50px;
+  margin-right: 2%;
 }
 
 .btn-group-toggle {
@@ -45,7 +45,6 @@
 
 .jprivados {
   color: rgb(218, 216, 216);
-  margin-left: 23%;
   margin-top: 8%;
   font-family: fuente_1;
 }
@@ -59,6 +58,7 @@
 }
 
 .btn-light{
-  margin-right: 9px;
-  margin-top: 9px;
+  margin-right: 2%;
+  margin-left: 90%;
+  margin-top: 1%;
 }
