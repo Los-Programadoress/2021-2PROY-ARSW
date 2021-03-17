@@ -4,10 +4,11 @@
   src: url(../fonts/ArcadeClassic.ttf);
 }
 
+@import url(https://allfont.es/allfont.css?fonts=a_monumento-demibold);
 
 .ventana {
-  height: 70%;
-  width: 70%;
+  height: 76%;
+  width: 76%;
   background: rgb(79, 79, 82);
   margin-left: 30%;
   margin-top: 13%;
@@ -23,10 +24,10 @@
 }
 
 .btn-primary {
-  height: 18%;
-  width: 90%;
+  height: 16%;
+  width: 60%;
   margin-top: 10%;
-  margin-left: 5%;
+  margin-left: 20%;
   font-family: fuente_1;
 }
 
@@ -36,23 +37,24 @@
 }
 
 .btn-group-toggle {
-  height: 10%;
+  height: 12%;
   width: 70%;
-  margin-top: 2%;
-  margin-left: 16%;
+  margin-left: 15%;
+  margin-bottom: 4%;
   font-family: fuente_1;
 }
 
 .jprivados {
   color: rgb(218, 216, 216);
   margin-top: 8%;
-  font-family: fuente_1;
+  margin-left: 20%;
+  font-family: 'a_Monumento DemiBold', arial;
 }
 
 .texto {
   height: 18%;
-  width: 90%;
-  margin-left: 5%;
+  width: 70%;
+  margin-left: 25%;
   margin-top: 8%;
   border-radius: 3%;
 }
