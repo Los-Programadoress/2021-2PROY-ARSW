@@ -24,7 +24,7 @@
 
 > - Los equipos inician con la misma cantidad de puntos.
 > - Si un oponente come una superpastilla esta le permite pausar al equipo oponente.
-> - Si dos oponentes cosumen la superpastilla al mismo tiempo, ninguno es pausado.
+> - Si dos oponentes consumen la superpastilla al mismo tiempo, ninguno es pausado.
 
 ### 💡Interfaz del juego
 
@@ -75,7 +75,7 @@
 
 ![](./img/diagramaCasosUso.png)
 
-#### Diagrama E-R
+#### Diagrama de Clases
 
 ![](./img/diagramaClases.png)
 
