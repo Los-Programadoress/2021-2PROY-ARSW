@@ -5,7 +5,7 @@ module.exports = {
 
     entry: [
         'react-hot-loader/patch',
-        './src/main/resources/static/index.js'
+        './src/main/resources/static/js/index.js'
     ],
     devtool: 'cheap-module-eval-source-map',
     output: {

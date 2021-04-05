@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://Alizeci.github.io/pruebaLacman"
+    "url": "git+https://Los-Programadoress.github.io/ARSW-2-2021-1-PROY"
   },
   "author": "los-programadores",
   "license": "ISC",
-  "homepage": "https://Alizeci.github.io/pruebaLacman",
+  "homepage": "https://Los-Programadoress.github.io/ARSW-2-2021-1-PROY",
   "devDependencies": {
     "@babel/cli": "^7.13.10",
     "@babel/core": "^7.13.10",
