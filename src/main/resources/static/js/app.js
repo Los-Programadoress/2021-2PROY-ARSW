@@ -25,7 +25,8 @@ var Module = (function () {
     var getPasscodeByName = function(){
         $.getScript(url, function () {
             var name=$("#newname").val();
-            document.getElementById("getpasscode").innerHTML = name;
+            var passcode = $("#newpasscode").val();
+            document.getElementById("getpasscode").innerHTML = passcode;
             document.getElementById("ready").innerHTML = "¡Código de acceso asignado!";
             apiclient.getPasscodeByName(name);
         });
