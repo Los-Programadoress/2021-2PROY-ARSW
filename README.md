@@ -75,9 +75,13 @@
 
 ![](./img/diagramaCasosUso.png)
 
-#### Diagrama de Clases
+#### Diagrama de Clases Frontend
 
-![](./img/diagramaClases.png)
+![](./img/diagramaClasesFrontend.png)
+
+#### Diagrama de Clases Backend
+
+![](./img/diagramaClasesBackend.png)
 
 #### Diagrama de Componentes
 
