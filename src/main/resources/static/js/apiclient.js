@@ -2,7 +2,7 @@ var apiclient = (function () {
 
     var addGameRoom = function(gameRoom){
 		return $.ajax({
-            url: "http://localhost:8080/lacman",
+            url: "https://lacman.herokuapp.com/lacman",
             type: "POST",
             data: JSON.stringify(gameRoom),
             contentType: "application/json",
@@ -10,7 +10,7 @@ var apiclient = (function () {
     }
 
     var getPasscodeByName = function (name, callback) {
-        $.getJSON("http://localhost:8080/lacman/" + name ,function (data) {
+        $.getJSON("https://lacman.herokuapp.com/lacman/" + name ,function (data) {
                 callback(null,data);
             }
         );
