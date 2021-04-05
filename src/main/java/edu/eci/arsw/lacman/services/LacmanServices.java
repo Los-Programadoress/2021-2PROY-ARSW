@@ -18,6 +18,7 @@ public class LacmanServices {
     LacmanPersistence lp = null;
 
     public void addGameRoom(Game gameRoom) throws LacmanPersistenceException {
+    	System.out.println("entro");
         lp.addGameRoom(gameRoom);
     }
 
