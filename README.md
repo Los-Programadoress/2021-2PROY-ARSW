@@ -83,7 +83,7 @@
 
 ![](./img/diagramaClasesBackend.png)
 
-#### Diagrama Entidad-Relacion
+#### Diagrama Entidad-Relación
 
 ![](./img/entidadRelacionDiagram.png)
 
