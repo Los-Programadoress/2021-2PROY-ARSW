@@ -1,10 +1,6 @@
 var Module = (function () {
-    var url = "js/apiclient.js";
-
-    const _getCode = function (passcode) {
-        let pass = passcode;
-        console.log(pass);
-        document.getElementById("getpasscode").innerHTML = passcode;
+    const showPasscode = function (mockdata) {
+        document.getElementById("getpasscode").innerHTML = mockdata;
         document.getElementById("ready").innerHTML = "¡Código de acceso asignado!";
     };
 
@@ -23,16 +19,12 @@ var Module = (function () {
     };
 
     var getPasscodeByName = function(){
-        $.getScript(url, function () {
-            var name=$("#newname").val();
-            var passcode = $("#newpasscode").val();
-            document.getElementById("getpasscode").innerHTML = passcode;
-            document.getElementById("ready").innerHTML = "¡Código de acceso asignado!";
-            apiclient.getPasscodeByName(name);
-        });
+        var name = $("#newname").val();
+        apiclient.getPasscodeByName(name);
     };
 
     return{
         addGameRoom: addGameRoom,
+        showPasscode: showPasscode
     }
 })();

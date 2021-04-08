@@ -1,7 +1,6 @@
 package edu.eci.arsw.lacman.services;
 
 import java.util.List;
-import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,23 +16,35 @@ public class LacmanServices {
     @Autowired
     LacmanPersistence lp = null;
 
+    /**
+     * Metodo que agrega una nueva sala de juego
+     * 
+     * @param gameRoom - Sala de juego
+     * @throws LacmanPersistenceException
+     */
     public void addGameRoom(Game gameRoom) throws LacmanPersistenceException {
-    	System.out.println("entro");
         lp.addGameRoom(gameRoom);
     }
 
+    /**
+     * Metodo que retorna el código de acceso de una sala de juego por el nombre
+     * 
+     * @param name - nombre de la sala de juego
+     * @return passcode - código de acceso
+     * @throws LacmanNotFoundException
+     */
     public String getPasscodeByName(String name) throws LacmanNotFoundException {
         return lp.getPasscodeByName(name);
     }
-    
+
     /**
-     * Metodo encargado de retornar todos las Salas de Juego
+     * Metodo que devuelve todas las Salas de Juego.
      * 
      * @return Colección de salas de juego
-     * @throws BlueprintNotFoundException
+     * @throws LacmanNotFoundException
      */
-	public List<Game> getAllGameRooms() throws LacmanNotFoundException {
-		return lp.getAllGameRooms();
-	}
+    public List<Game> getAllGameRooms() throws LacmanNotFoundException {
+        return lp.getAllGameRooms();
+    }
 
 }

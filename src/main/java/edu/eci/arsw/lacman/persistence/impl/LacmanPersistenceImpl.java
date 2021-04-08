@@ -1,8 +1,6 @@
 package edu.eci.arsw.lacman.persistence.impl;
 
 import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
