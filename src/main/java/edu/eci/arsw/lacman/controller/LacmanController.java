@@ -54,7 +54,7 @@ public class LacmanController {
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.FORBIDDEN);
         }
     }
-
+    
     /**
      * Obtiene el código de acceso por el nombre de la Sala de juego
      * 
@@ -67,6 +67,17 @@ public class LacmanController {
         } catch (LacmanNotFoundException ex) {
             Logger.getLogger(LacmanController.class.getName()).log(Level.SEVERE, null, ex);
             return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+        }
+    }
+    
+    @RequestMapping(path = "/passcode",method = RequestMethod.POST)
+    public ResponseEntity<?> isPasscode(@RequestBody String passcode) throws LacmanNotFoundException {
+        try {
+        	ls.isPasscode(passcode);
+            return new ResponseEntity<>(HttpStatus.ACCEPTED);
+        } catch (LacmanNotFoundException ex) {
+            Logger.getLogger(LacmanController.class.getName()).log(Level.SEVERE, null, ex);
+            return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
         }
     }
 }

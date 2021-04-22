@@ -47,4 +47,18 @@ public class LacmanServices {
         return lp.getAllGameRooms();
     }
 
+    public void isPasscode(String passcode) throws LacmanNotFoundException{
+    	List<Game> lg;
+    	lg = lp.getAllGameRooms();
+    	boolean resp=false; 
+    	for (Game g : lg){
+    		if(g.getPasscode().equals(passcode)) {
+    			resp=true;
+    			break;
+    		}
+    	}
+    	if(!resp) {
+    		throw new LacmanNotFoundException("Clave incorrecta");
+    	}
+    }
 }

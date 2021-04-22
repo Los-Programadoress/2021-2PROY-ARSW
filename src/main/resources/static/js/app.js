@@ -23,8 +23,21 @@ var Module = (function () {
         apiclient.getPasscodeByName(name);
     };
 
+    var isPasscode = function(){
+        var passcode = $("#joinpasscode").val();
+        apiclient.isPasscode(passcode).then(
+            function () {
+                window.location.href='https://lacman-react.herokuapp.com/';
+            },
+            function () {
+                alert("invalid passcode");
+            }
+		);
+    };
+
     return{
         addGameRoom: addGameRoom,
-        showPasscode: showPasscode
+        showPasscode: showPasscode,
+        isPasscode: isPasscode
     }
 })();
