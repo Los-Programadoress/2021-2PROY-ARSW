@@ -12,4 +12,6 @@ public interface LacmanPersistence {
 	String getPasscodeByName(String name) throws LacmanNotFoundException;
 
 	List<Game> getAllGameRooms() throws LacmanNotFoundException;
+	
+	void isPasscode(String passcode) throws LacmanNotFoundException; 
 }

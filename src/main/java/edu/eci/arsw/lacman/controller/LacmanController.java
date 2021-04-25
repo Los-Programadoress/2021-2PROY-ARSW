@@ -58,7 +58,7 @@ public class LacmanController {
     /**
      * Obtiene el código de acceso por el nombre de la Sala de juego
      * 
-     * @param name - nombre de la Sala de Juego
+     * @param name - nombre de la Sala de Juego lacman/name
      */
     @RequestMapping(path = "/{name}", method = RequestMethod.GET)
     public ResponseEntity<?> getPasscodeByName(@PathVariable("name") String name) {
@@ -70,8 +70,13 @@ public class LacmanController {
         }
     }
     
+    /**
+     * Validar si es código pertence a una sala existente
+     * 
+     * @param passcode - Código de la Sala de Juego lacman/passcode
+     */
     @RequestMapping(path = "/passcode",method = RequestMethod.POST)
-    public ResponseEntity<?> isPasscode(@RequestBody String passcode) throws LacmanNotFoundException {
+    public ResponseEntity<?> isPasscode(@RequestBody String passcode){
         try {
         	ls.isPasscode(passcode);
             return new ResponseEntity<>(HttpStatus.ACCEPTED);

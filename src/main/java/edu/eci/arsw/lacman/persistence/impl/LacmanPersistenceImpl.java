@@ -49,4 +49,20 @@ public class LacmanPersistenceImpl implements LacmanPersistence {
 		}
 		return lr.findAll();
 	}
+	
+	@Override
+	public void isPasscode(String passcode) throws LacmanNotFoundException {
+		List<Game> lg;
+    	lg = getAllGameRooms();
+    	boolean resp=false; 
+    	for (Game g : lg){
+    		if(g.getPasscode().equals(passcode)) {
+    			resp=true;
+    			break;
+    		}
+    	}
+    	if(!resp) {
+    		throw new LacmanNotFoundException("Clave incorrecta");
+    	}
+	}
 }

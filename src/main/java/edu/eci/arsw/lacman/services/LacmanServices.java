@@ -17,7 +17,7 @@ public class LacmanServices {
     LacmanPersistence lp = null;
 
     /**
-     * Metodo que agrega una nueva sala de juego
+     * Método que agrega una nueva sala de juego
      * 
      * @param gameRoom - Sala de juego
      * @throws LacmanPersistenceException
@@ -27,7 +27,7 @@ public class LacmanServices {
     }
 
     /**
-     * Metodo que retorna el código de acceso de una sala de juego por el nombre
+     * Método que retorna el código de acceso de una sala de juego por el nombre
      * 
      * @param name - nombre de la sala de juego
      * @return passcode - código de acceso
@@ -38,7 +38,7 @@ public class LacmanServices {
     }
 
     /**
-     * Metodo que devuelve todas las Salas de Juego.
+     * Método que devuelve todas las Salas de Juego.
      * 
      * @return Colección de salas de juego
      * @throws LacmanNotFoundException
@@ -47,18 +47,13 @@ public class LacmanServices {
         return lp.getAllGameRooms();
     }
 
+    /**
+     * Método que valida si es código pertence a una sala existente
+     * 
+     * @param passcode - Código de la Sala de Juego 
+     * @throws LacmanNotFoundException
+     */
     public void isPasscode(String passcode) throws LacmanNotFoundException{
-    	List<Game> lg;
-    	lg = lp.getAllGameRooms();
-    	boolean resp=false; 
-    	for (Game g : lg){
-    		if(g.getPasscode().equals(passcode)) {
-    			resp=true;
-    			break;
-    		}
-    	}
-    	if(!resp) {
-    		throw new LacmanNotFoundException("Clave incorrecta");
-    	}
+    	lp.isPasscode(passcode);
     }
 }
