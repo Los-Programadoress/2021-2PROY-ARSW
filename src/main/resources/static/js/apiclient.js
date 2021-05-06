@@ -13,7 +13,7 @@ var apiclient = (function () {
         axios({
             method:'get',
             url: "https://lacman.herokuapp.com/lacman/"+name,
-        }).then(response=> Module.showPasscode(response.data))
+        }).then(response=> Module.showPasscode())
             .catch(error=> console.log(error));
     };
 

@@ -69,7 +69,7 @@
                   <div class="col-lg-3">
                     <input id="newpasscode" class="classCodigo" name="codigo" type="text" placeholder="Ingresa el código"/>
                     <p class="classCA">El código de acceso debe tener mínimo 4 caracteres.</p>
-                    <button type="button" class="btn btn-danger btDanger" onclick="Module.addGameRoom()">Asignar</button>
+                    <button type="button" class="btn btn-danger btDanger" onclick="Module.showPasscode()">Asignar</button>
                   </div>
                   <div class="col-lg-3">
                     <h4 class="classAcceso">Código de Acceso</h4>
@@ -81,7 +81,7 @@
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-              <button type="button" class="btn btn-primary" onclick="location.href='https://lacman-react.herokuapp.com/'">Jugar</button>
+              <button type="button" class="btn btn-primary" onclick="Module.addGameRoom()">Jugar</button>
             </div>
           </div>
         </div>
