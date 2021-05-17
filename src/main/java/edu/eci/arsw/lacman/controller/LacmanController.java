@@ -80,7 +80,7 @@ public class LacmanController {
     @RequestMapping(path = "/passcode",method = RequestMethod.POST)
     public ResponseEntity<?> isPasscode(@RequestBody String passcode){
         try {
-        	ls.isPasscode(passcode);
+        	ls.isPasscode(passcode.substring(0, passcode.length()-1));
             return new ResponseEntity<>(HttpStatus.ACCEPTED);
         } catch (LacmanNotFoundException ex) {
             Logger.getLogger(LacmanController.class.getName()).log(Level.SEVERE, null, ex);
