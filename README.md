@@ -95,7 +95,13 @@
 
 #### Diagrama de Despliegue
 
-![](./img/deploymentDiagram.PNG)
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <img src="./img/deploymentDiagram.PNG" alt="MI" width="700"/>
+    </body>
+</html>
 
 #### 📈 Enlace a Taiga: [Backlog](https://tree.taiga.io/project/alizeci-arsw-2-2021-1-proy/backlog)
 
