@@ -105,4 +105,6 @@
 
 #### ⭕ Enlace al sistema de integración continua: [![CircleCI](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY.svg?style=svg)](https://circleci.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY)
 
-#### ⚠️Reporte de de Análisis estático de código: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/02882d526be74a4aabd53d7b3876ec38)](https://www.codacy.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Los-Programadoress/ARSW-2-2021-1-PROY&utm_campaign=Badge_Grade)
+#### ⚠️ Reporte de Análisis estático de código: [![Codacy Badge](https://app.codacy.com/project/badge/Grade/02882d526be74a4aabd53d7b3876ec38)](https://www.codacy.com/gh/Los-Programadoress/ARSW-2-2021-1-PROY/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Los-Programadoress/ARSW-2-2021-1-PROY&utm_campaign=Badge_Grade)
+
+#### ✒️ Requerimientos No Funcionales : [Documento](https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY/blob/main/Requerimientos%20No%20Funcionales.pdf)
