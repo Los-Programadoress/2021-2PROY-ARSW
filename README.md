@@ -68,6 +68,7 @@
         <img src="https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY/blob/main/img/JoinMk_01.png" alt="MI" width="700"/>
         <img src="https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY/blob/main/img/JoinMk_02.png" alt="MI2" width="700"/>
         <img src="https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY/blob/main/img/JoinMk_03.png" alt="MI2" width="700"/>
+        <img src="https://github.com/Los-Programadoress/ARSW-2-2021-1-PROY/blob/main/img/gameover.png" alt="MI2" width="700"/>
     </body>
 </html>
 
