@@ -99,7 +99,7 @@
 <html>
     <head></head>
     <body>
-        <img src="./img/deploymentDiagram.PNG" alt="MI" width="700"/>
+        <img src="./img/deploymentDiagram.PNG" alt="MI" width="550"/>
     </body>
 </html>
 
