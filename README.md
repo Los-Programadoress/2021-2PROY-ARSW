@@ -26,6 +26,8 @@
 > - Si un oponente come una superpastilla esta le permite pausar al equipo oponente.
 > - Si dos oponentes consumen la superpastilla al mismo tiempo, ninguno es pausado.
 
+### 📝Manual de usuario: [Ir al manual](https://angelica2802alfaro.gitbook.io/lacman-user-manual/)
+
 ### 💡Interfaz del juego
 
 **Mockup Inicio**
